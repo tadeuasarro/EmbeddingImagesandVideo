@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR STYLING */
+#navigation-bar{
+    width: 100%;
+    height: 66px;
+    background-color: white;
+    position: fixed;
+    display: grid;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-inquiry{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.extras{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-form, .search-inquiry{
+    height: 30px;
+    margin-top: 25px;
+}
+
+/* CONTAINER STYLING */
+
+/* SIDEBAR STYLING */
