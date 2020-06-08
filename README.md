@@ -1,2 +1,2 @@
 
-![Project ScreenShot(/img/EmbeddingImagesandVideo.png)
+![Project ScreenShot](/img/EmbeddingImagesandVideo.png)
