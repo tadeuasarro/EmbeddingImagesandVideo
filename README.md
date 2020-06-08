@@ -18,9 +18,10 @@ To run the project simply download de .zip file, extract it, and open the index.
 # Authors
 
 ## Enrique Ramirez
-* Github:
-* Twitter: @Enrique93407289
-* Linkedin: 
+* Github: https://github.com/nrqrmz
+* Twitter: twitter.com@Enrique93407289
+* Linkedin: https://www.linkedin.com/in/enrique-ramirez-6157b11aa/
+
 
 ## Tadeu Sarro
 * Github: https://github.com/tadeuasarro
