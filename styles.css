@@ -8,6 +8,12 @@ body{
     background-color: lightgrey;
 }
 
+/* MAIN SECTION STYLING */
+#main-section{
+    display: flex;
+    justify-content: center;
+}
+
 /* NAVBAR STYLING */
 #navigation-bar{
     width: 100%;
@@ -36,6 +42,10 @@ body{
     justify-content: center;
 }
 
+.search-inquiry button{
+    width: 70px;
+}
+
 .extras{
     grid-column-start: 3;
     grid-column-end: 3;
@@ -54,13 +64,11 @@ body{
 }
 
 /* CONTAINER STYLING */
-
 iframe{
     border: none;
 }
 
 #container{
-    float: left;
     margin-top: 90px;
     width: 850px;
     height: 710px;
@@ -79,16 +87,37 @@ iframe{
 
 .video-title{
     grid-column-start: 1;
-    grid-column-end: 2;
-    margin-left: 50px;
+    grid-column-end: 3;
+    margin: 0 50px;
+    padding: 20px 20px 0 20px;
+    background-color: white;
+}
+
+.container-buttons{
+    background-color: white;
+    margin: 0 50px;
+    padding: 20px;
 }
 
 .social-buttons{
     grid-column-start: 3;
     grid-column-end: 3;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.media-buttons{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.media{
+    width: 80px;
+}
+
+.media i{
+    margin-right: 10px;
 }
 
 .functions{
@@ -101,12 +130,12 @@ iframe{
     grid-column-end: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .avatar{
-    margin-right: 15px;
     border-radius: 50px;
+    margin-right: 15px;
 }
 
 .video-views{
@@ -120,21 +149,19 @@ iframe{
 .video-description{
     grid-column-start: 1;
     grid-column-end: 3;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: justify;
     margin: 0 50px;
+    padding: 20px;
+    background-color: white;
 }
 
 /* SIDEBAR STYLING */
 #side-bar{
-    float: right;
-    margin-left: 15px;
     width: 400px;
     margin-top: 90px;
-    margin-right: 40px;
     border: 1px solid darkgrey;
-    border-radius: 10px;
+    background-color: white;
     padding: 20px;
 }
 
