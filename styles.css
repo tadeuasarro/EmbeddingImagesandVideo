@@ -71,13 +71,12 @@ iframe{
 #container{
     margin-top: 90px;
     width: 850px;
-    height: 710px;
 }
 
 #videoframe{
-    width: 750px;
-    height: 500px;
-    margin-left: 50px;
+    width: 810px;
+    height: 455px;
+    margin: 0 20px;
 }
 
 .grid{
@@ -88,15 +87,15 @@ iframe{
 .video-title{
     grid-column-start: 1;
     grid-column-end: 3;
-    margin: 0 50px;
+    margin: 0 20px;
     padding: 20px 20px 0 20px;
     background-color: white;
 }
 
 .container-buttons{
     background-color: white;
-    margin: 0 50px;
-    padding: 20px;
+    margin: 0 20px;
+    padding: 5px 20px;
 }
 
 .social-buttons{
@@ -110,10 +109,13 @@ iframe{
 .media-buttons{
     grid-column-start: 1;
     grid-column-end: 1;
+    display: flex;
 }
 
 .media{
     width: 80px;
+    margin: 5px 10px 15px 0;
+
 }
 
 .media i{
@@ -121,7 +123,7 @@ iframe{
 }
 
 .functions{
-    margin: 5px;
+    margin: 5px 0 15px 10px;
     width: 50px;
 }
 
@@ -142,8 +144,12 @@ iframe{
     grid-column-start: 3;
     grid-column-end: 3;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+    
+.container-buttons p{
+    text-align: end;
 }
 
 .video-description{
@@ -151,7 +157,7 @@ iframe{
     grid-column-end: 3;
     align-items: center;
     text-align: justify;
-    margin: 0 50px;
+    margin: 0 20px;
     padding: 20px;
     background-color: white;
 }
