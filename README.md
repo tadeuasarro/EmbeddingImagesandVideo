@@ -5,7 +5,7 @@ The main objective of this project is to work the basics of HTML and CSS, embedd
 
 The page structure consists of a `<header>` and one main `<section>`. This `<section>` consists of two different `<div>` one being the container and the other being the sidebar..
 
-![Project ScreenShot(/img/EmbeddingImagesandVideo.png)
+![Project ScreenShot](/img/EmbeddingImagesandVideo.png)
 
 #Built With
 * HTML5;
