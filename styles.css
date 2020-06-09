@@ -50,17 +50,29 @@ body{
     grid-column-start: 3;
     grid-column-end: 3;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    vertical-align: middle;
 }
 
-.login-form, .search-inquiry{
+.bell{
+    width: 15px;
+    height: 20px;
+}
+
+.camera{
+    width: 20px;
+    height: 15px;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+}
+
+.search-inquiry{
     height: 30px;
     margin-top: 17px;
     margin-left: 5px;
-}
-
-.login-form{
-    width: 70px;
 }
 
 /* CONTAINER STYLING */
@@ -147,7 +159,7 @@ iframe{
     align-items: flex-end;
     justify-content: flex-end;
 }
-    
+
 .container-buttons p{
     text-align: end;
 }
