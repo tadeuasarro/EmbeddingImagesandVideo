@@ -49,24 +49,20 @@ body{
 .extras{
     grid-column-start: 3;
     grid-column-end: 3;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
+    text-align: center;
+    border: red solid 1px;
+
 }
 
-.bell{
-    width: 15px;
-    height: 20px;
+.extras ul {
+  border: black solid 1px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.camera{
-    width: 20px;
-    height: 15px;
-}
-
-.square{
-    width: 20px;
-    height: 20px;
+.extras ul li {
+  display: inline;
+  margin: 20px 40px;
 }
 
 .search-inquiry{
