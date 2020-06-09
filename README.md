@@ -5,7 +5,7 @@ The main objective of this project is to work the basics of HTML and CSS, embedd
 
 The page structure consists of a `<header>` and one main `<section>`. This `<section>` consists of two different `<div>` one being the container and the other being the sidebar..
 
-![Project ScreenShot](/img/EmbeddingImagesandVideo.png)
+![Project ScreenShot](/img/Screenshot.png)
 
 # Built With
 * HTML5;
@@ -26,6 +26,7 @@ To run the project simply download de .zip file, extract it, and open the index.
 
 ## Tadeu Sarro
 * Github: https://github.com/tadeuasarro
+* Twitter: twitter.com@tadeuasarro
 * Linkedin: https://www.linkedin.com/in/tadeu-sarro-71481013a/
 
 # Contributing
