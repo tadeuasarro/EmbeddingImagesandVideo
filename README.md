@@ -12,16 +12,17 @@ The page structure consists of a `<header>` and one main `<section>`. This `<sec
 * CSS3;
 * Fontawesome 6.0
 
+#Live Demo
+https://rawcdn.githack.com/tadeuasarro/EmbeddingImagesandVideo/tree/homepage
+
 # Getting Started
 To run the project simply download de .zip file, extract it, and open the index.html file with your favorite browser.
 
 # Authors
-
 ## Enrique Ramirez
 * Github: https://github.com/nrqrmz
 * Twitter: twitter.com@Enrique93407289
 * Linkedin: https://www.linkedin.com/in/enrique-ramirez-6157b11aa/
-
 
 ## Tadeu Sarro
 * Github: https://github.com/tadeuasarro
