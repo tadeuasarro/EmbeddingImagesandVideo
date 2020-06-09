@@ -50,12 +50,10 @@ body{
     grid-column-start: 3;
     grid-column-end: 3;
     text-align: center;
-    border: red solid 1px;
 
 }
 
 .extras ul {
-  border: black solid 1px;
   display: flex;
   justify-content: flex-end;
 }
@@ -95,9 +93,29 @@ iframe{
 .video-title{
     grid-column-start: 1;
     grid-column-end: 3;
-    margin: 0 20px;
+    margin: 0 0 0 20px;
     padding: 20px 20px 0 20px;
     background-color: white;
+}
+
+.subscription-container{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-right: 20px;
+    background-color: white;
+    display: flex;
+    padding: 20px 20px 0 0;
+}
+
+.subscription{
+    width: 100%;
+    border: red solid 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+
 }
 
 .container-buttons{
@@ -172,7 +190,7 @@ iframe{
 
 /* SIDEBAR STYLING */
 #side-bar{
-    width: 400px;
+    width: 340px;
     margin-top: 90px;
     border: 1px solid darkgrey;
     background-color: white;
@@ -186,7 +204,7 @@ iframe{
 
 .video-labels{
     float: right;
-    width: 230px;
+    width: 170px;
 }
 
 .video-labels p{
