@@ -56,11 +56,12 @@ body{
 .extras ul {
   display: flex;
   justify-content: flex-end;
+  margin-right: 80px;
 }
 
 .extras ul li {
   display: inline;
-  margin: 20px 40px;
+  margin: 20px 15px;
 }
 
 .search-inquiry{
