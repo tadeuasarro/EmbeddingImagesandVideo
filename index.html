@@ -1,48 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="icon" type="image/png" href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico">
+        <script src="https://kit.fontawesome.com/fdaa9ad399.js" crossorigin="anonymous"></script>
         <title>Enrique and Tadeu Youtube Copy</title>
     </head>
     <body>
 
         <header id="navigation-bar">
-            <img class="logo" src="https://brandemia.org/sites/default/files/logo_youtube.jpg" alt="youtube logo">
+            <img class="logo" src="img/logo_youtube.jpg" alt="youtube logo">
             <form class="search-inquiry">
                 <input type="text" placeholder="Search" size="75">
-                <button>Search</button>
+                <button><i class="fas fa-search"></i></button>
             </form>
             <div class="extras">
-                <button class="login-form">Login</button>
-                <button class="login-form">Explore</button>
-                <button class="login-form">About us</button>
+                <ul>
+                    <li><img class="navbar-images camera" src="img/navbar-img1.png" alt="camera"></li>
+                    <li><img class="navbar-images square" src="img/navbar-img2.png" alt="square"></li>
+                    <li><img class="navbar-images bell" src="img/navbar-img3.png" alt="bell"> </li>
+                </ul>
             </div>
         </header>
 
-        <section>
+        <section id="main-section">
             <div id="container">
                 <div id="video">
-                    <iframe id="videoframe" width="1019" height="573" src="https://www.youtube.com/embed/wOJAErCvVhs?list=PLbAFXJC0J5GbBS2n1O9RVjIhYNVKkCdZt" allow="accelerometer; autopla; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="videoframe" src="https://www.youtube.com/embed/wOJAErCvVhs?list=PLbAFXJC0J5GbBS2n1O9RVjIhYNVKkCdZt" allow="accelerometer; autopla; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="grid">
                     <h1 class="video-title">Volibear, The Relentless Storm</h1>
-                    <div class="social-buttons">
-                        <button class="functions">Like</button>
-                        <button class="functions">Dislike</button>
-                        <button class="functions">Share</button>
+                    <div class="subscription-container">
+                        <button class="subscription">SUBSCRIBE</button>
                     </div>
                 </div>
-                <div class="grid">
+                <div class="grid container-buttons">
                     <div class="avatar-whole">
                         <img class="avatar" src="https://yt3.ggpht.com/a/AATXAJx5v2YVy2UAOJ1v5XPCWfD1EBe6b_mU06qWWA=s48-c-k-c0xffffffff-no-rj-mo" alt="Video Owner User Avatar">
                         <span>League of Legends Official Youtube</span>
                     </div>
-                    <p class="video-views">714,027 views • May 27 2020</p>
+                    <p class="video-views">714,027 views</p>
+                </div>
+                <div class="grid container-buttons">
+                    <div class="media-buttons">
+                        <button class="media"><i class=" fas fa-plus"></i>Add to</button>
+                        <button class="media"><i class=" fas fa-share"></i>Share</button>
+                        <button class="media"><i class="fas fa-ellipsis-h"></i>More</button>
+                    </div>
+                    <div class="social-buttons">
+                        <button class="functions"><i class=" fas fa-thumbs-up"></i></button>
+                        <button class="functions"><i class=" fas fa-thumbs-down"></i></button>
+                    </div>
                 </div>
                 <div class="grid">
                     <div class="video-description">
-                        <p>The official champion theme for Volibear, the Relentless Storm. This war-hymn of the Ursine appears to be a fragment of the much longer poem ‘Ode to Ruin,’ dating back to before the War of the Three Sisters. While some of the original words have no direct translation, the intent behind them is abundantly clear.
+                        <p>Published on May 27, 2020</p>
+                        <p>The official champion theme for Volibear, the Relentless Storm. This war-hymn of the Ursine appears to be a fragment of the much longer poem ‘Ode to Ruin’, dating back to before the War of the Three Sisters. While some of the original words have no direct translation, the intent behind them is abundantly clear.
                         </p>
                     </div>
                 </div>
@@ -55,7 +70,7 @@
                             <div class="video-labels">
                                 <p>First Video Title</p>
                                 <p>First Video Owner</p>
-                                <p>Visualizations counter | Upload date</p>
+                                <p>0 views | Upload date</p>
                             </div>
                         </div>
                     </li>
@@ -65,7 +80,7 @@
                             <div class="video-labels">
                                 <p>Second Video Title</p>
                                 <p>Second Video Owner</p>
-                                <p>Visualizations counter | Upload date</p>
+                                <p>0 views | Upload date</p>
                             </div>
                         </div>
                     </li>
@@ -75,7 +90,7 @@
                             <div class="video-labels">
                                 <p>Third Video Title</p>
                                 <p>Third Video Owner</p>
-                                <p>Visualizations counter | Upload date</p>
+                                <p>0 views | Upload date</p>
                             </div>
                         </div>
                     </li>
@@ -85,7 +100,7 @@
                             <div class="video-labels">
                                 <p>Fourth Video Title</p>
                                 <p>Fourth Video Owner</p>
-                                <p>Visualizations counter | Upload date</p>
+                                <p>0 views | Upload date</p>
                             </div>
                         </div>
                     </li>
@@ -95,7 +110,27 @@
                             <div class="video-labels">
                                 <p>Fifth Video Title</p>
                                 <p>Fifth Video Owner</p>
-                                <p>Visualizations counter | Upload date</p>
+                                <p>0 views | Upload date</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sidebar-li">
+                        <div>
+                            <img src= "https://archive.vn/Bss88/872b157fed3ecb14099122fcb5f981408ec8d7d2" alt="video">
+                            <div class="video-labels">
+                                <p>Sixth Video Title</p>
+                                <p>Sixth Video Owner</p>
+                                <p>0 views | Upload date</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sidebar-li">
+                        <div>
+                            <img src="https://archive.vn/Bss88/e551ad6b2fda543caa6fbd78c98ec95c1f1d0aff" alt="video">
+                            <div class="video-labels">
+                                <p>Seventh Video Title</p>
+                                <p>Seventh Video Owner</p>
+                                <p>0 views | Upload date</p>
                             </div>
                         </div>
                     </li>
